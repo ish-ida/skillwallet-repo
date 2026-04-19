@@ -1,0 +1,35 @@
+- Client (Browser):
+The client is the browser used by the user, such as Chrome or Edge. 
+It is where the user interacts with the application by clicking buttons,
+filling forms, or viewing pages. It sends requests to the frontend when
+the user performs actions.
+
+- Frontend (UI Layer):
+The frontend is the visible part of the application built using HTML, CSS,
+JavaScript, or frameworks like React. It handles the design and user interface
+and sends user actions to the backend while displaying the results received from it.
+
+- Backend (Server):
+The backend is the server-side part of the system, usually built with Node.js, Express,
+or similar technologies. It processes requests from the frontend, applies logic, and 
+communicates with the database to fetch or store data before sending a response back.
+
+Database (MongoDB – Conceptual):
+The database is where all the application’s data is stored permanently. MongoDB stores
+data in collections and documents. It is accessed only by the backend to retrieve, insert,
+update, or delete data as needed by the application.
+
+
+User (Client)
+     ↓
+Frontend (UI in Browser)
+     ↓ request
+Backend (Server / API)
+     ↓ query
+Database (MongoDB)
+     ↑ response
+Backend
+     ↑ response
+Frontend
+     ↑ shows result
+User
