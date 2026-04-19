@@ -1,0 +1,37 @@
+/* Container styling */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Inputs and buttons */
+input, select, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+/* Output box */
+#output {
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px dashed gray;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: blue;
+    outline: none;
+}
